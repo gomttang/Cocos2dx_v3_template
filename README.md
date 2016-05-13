@@ -7,6 +7,9 @@ There are 4 kinds of templates.
 3. Singleton
 4. Scene
 
+
+Put it in  >>>>> /Users/lineplus/Library/Developer/Xcode/Templates <<<< here!!!
+
 Use it whatever you want. 
 Thanks!
 
