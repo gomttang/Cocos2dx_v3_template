@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved
+//  Copyright (c) ___YEAR___ LINE. All rights reserved
 //
 
 #include "___FILEBASENAME___.h"
@@ -12,7 +12,7 @@ USING_NS_CC;
 
 static ___FILEBASENAMEASIDENTIFIER___ *s_Shared___FILEBASENAMEASIDENTIFIER___ = NULL;
 
-___FILEBASENAMEASIDENTIFIER___* ___FILEBASENAMEASIDENTIFIER___::shared___FILEBASENAMEASIDENTIFIER___(void)
+___FILEBASENAMEASIDENTIFIER___* ___FILEBASENAMEASIDENTIFIER___::getInstance(void)
 {
     if (!s_Shared___FILEBASENAMEASIDENTIFIER___)
     {

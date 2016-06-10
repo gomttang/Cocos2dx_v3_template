@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved
+//  Copyright (c) ___YEAR___ LINE. All rights reserved
 //
 
 #ifndef _____PROJECTNAME________FILEBASENAME_____H__
@@ -17,7 +17,7 @@ public :
     virtual ~___FILEBASENAMEASIDENTIFIER___();
     virtual bool init();
     
-    static ___FILEBASENAMEASIDENTIFIER___* shared___FILEBASENAMEASIDENTIFIER___(void);
+    static ___FILEBASENAMEASIDENTIFIER___* getInstance(void);
     
     static void purgeManager();
 private :
